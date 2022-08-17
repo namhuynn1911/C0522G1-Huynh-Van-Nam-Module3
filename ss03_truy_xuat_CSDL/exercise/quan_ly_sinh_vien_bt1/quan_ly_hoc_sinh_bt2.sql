@@ -4,14 +4,14 @@ create database quan_ly_sinh_vien_bt2;
 use quan_ly_sinh_vien_bt2;
 create table class(
 class_id int auto_increment primary key,
-class_name varchar(60) not null,
-start_data datetime not null ,
+class_name varchar(60) ,
+start_data datetime,
 `status` bit
 );
 
 create table student(
 student_id int auto_increment primary key,
-student_name varchar(30) not null,
+student_name varchar(30) ,
 address varchar(50),
 phone varchar(20),
 `status` bit,
@@ -21,8 +21,8 @@ foreign key(class_id) references class(class_id)
 
 create table `subject`(
 sub_id int auto_increment primary key,
-sub_name varchar(30) not null,
-credit tinyint not null default 1 check(credit>=1),
+sub_name varchar(30) ,
+credit tinyint  default 1 check(credit>1),
 `status` bit default 1);
 
 create table mark(

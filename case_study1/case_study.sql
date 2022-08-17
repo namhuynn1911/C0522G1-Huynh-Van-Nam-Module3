@@ -45,8 +45,8 @@ foreign key(ma_bo_phan) references bo_phan(ma_bo_phan)
 insert into nhan_vien(ma_nhan_vien,ho_ten,ngay_sinh,so_cmnd,luong,so_dien_thoai,
                       email,dai_chi,ma_vi_tri,ma_trinh_do,ma_bo_phan)
 values
-(1,'Nguyễn Văn An','1970-11-07','456231786',10000000,'091234121','annguyen@gmail.com', '295 nguyễn tất thành',1,3,1),
-(2,'Lê Văn Bình','1997-04-09','654231234',7000000,'0934212314','binhlv@gmail.com', '22 Yên bái,đà nẵng',1,2,2),
+(1,'Nguyễn Văn An','1970-11-07','456231786',10000000,'091234121','annguyen@gmail.com', '295 nguyễn tất thành,Hải Châu, Đà Nẵng',1,3,1),
+(2,'Lê Văn Bình','1997-04-09','654231234',7000000,'0934212314','binhlv@gmail.com', '22 Yên bái,Hải Châu,đà nẵng',1,2,2),
 (3,'Hồ Thị Yến','1995-12-12','999231723',14000000,'0412352315','thiyen@gmail.com','K234/11 Điện Biên Phủ,Gia Lai',1,3,2),
 (4,'Võ Công Toản','1980-04-04','123231365',17000000,'0374443232','toan0404@gmail.com','77 Hoàng Diệu,Quản Trị',1,4,4),
 (5,'Nguyễn Bỉnh Phát','1999-12-09','454363232',6000000,'0902341231','phatphat@gmail.com','43 Yên Bái,Đà Nẵng',2,1,1),
@@ -122,7 +122,7 @@ dich_vu_mien_phi_di_kem text);
 insert into dich_vu(ma_dich_vu,ten_dich_vu,dien_tich,chi_phi_thue,so_nguoi_toi_da,tieu_chuan_phong,mo_ta_tien_nghi_khac,dien_tich_ho_boi,
                      so_tang,dich_vu_mien_phi_di_kem,ma_kieu_thue,ma_loai_dich_vu)
 values
-(1,'Villa Beach Fron',25000,1000000,10,'vip','Có hồ bơi',500,4,null,3,1),
+(1,'Villa Beach Fron',25000,10000000,10,'vip','Có hồ bơi',500,4,null,3,1),
 (2,'House Princess 01',14000,5000000,7,'vip','Có thêm bếp nướng',null,3,null,2,2),
 (3,'Room Twin 01',5000,1000000,2,'normal','Có tivi',null,null,'1 Xe máy, 1 Xe đạp',4,3),
 (4,'Villa No Beach Front',22000,9000000,8,'normal','Có hồ bơi',300,3,null,3,1),
@@ -150,13 +150,14 @@ ngay_lam_hop_dong datetime not null,
 ngay_ket_thuc datetime not null,
 tien_dat_coc double not null,
 ma_nhan_vien int,
+is_delete bit default 0,
 foreign key(ma_nhan_vien) references nhan_vien(ma_nhan_vien),
 ma_khach_hang int,
 foreign key(ma_khach_hang) references khach_hang(ma_khach_hang),
 ma_dich_vu int,
 foreign key(ma_dich_vu) references dich_vu(ma_dich_vu));
 
-insert into hop_dong
+insert into hop_dong(ma_hop_dong, ngay_lam_hop_dong, ngay_ket_thuc, tien_dat_coc, ma_nhan_vien, ma_khach_hang, ma_dich_vu)
 values
 (1,'2020-12-08','2020-12-08',0,3,1,3),
 (2,'2020-07-14','2020-07-21',200000,7,3,1),
@@ -168,7 +169,7 @@ values
 (8,'2021-06-17','2021-06-18',150000,3,4,1),
 (9,'2020-11-19','2020-11-19',0,3,4,3),
 (10,'2021-04-12','2021-04-14',0,10,3,5),
-(11,'2021-04-25','2021-04-25',0,2,2,1),
+(11,'2019-12-12','2021-04-25',0,2,2,1),
 (12,'2021-05-25','2021-05-27',0,7,10,1);
 
 

@@ -8,7 +8,7 @@ select ma_nhan_vien
 from hop_dong
 where year(ngay_lam_hop_dong)between 2019 and 2021);
 select * from nhan_vien
-where nhan_vien.is_delete;
+where nhan_vien.is_delete=1;
 
 
 

@@ -6,7 +6,7 @@ from nhan_vien nv
 join hop_dong hd on nv.ma_nhan_vien = hd.ma_nhan_vien
 join trinh_do td on nv.ma_trinh_do = td.ma_trinh_do
 join bo_phan bp on nv.ma_bo_phan = bp.ma_bo_phan
-where  year(hd.ngay_lam_hop_dong)in(2020,2021)
+where  year(hd.ngay_lam_hop_dong)in(2020,2021) and nv.is_delete=0
 group by ma_nhan_vien
 having count(hd.ma_nhan_vien) <=3 ;
 
