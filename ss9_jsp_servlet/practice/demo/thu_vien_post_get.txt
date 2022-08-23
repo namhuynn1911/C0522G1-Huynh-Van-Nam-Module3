@@ -1,0 +1,8 @@
+Trong file build.gradle thêm 2 thư viện sau vào:
+
+compileJava.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) {    options.encoding = 'UTF-8'}
+
+Trong doGet và doPost thì thêm câu lệnh này đầu tiên:
+
+request.setCharacterEncoding("UTF-8");
