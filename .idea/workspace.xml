@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a3116f-b197-451a-b796-1041dc73926e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css_module3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css_module3/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css_module3/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/C0522G1-Huynh-Van-Nam-Module3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C0522G1-Huynh-Van-Nam-Module3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_module3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_module3/.idea/css_module3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_module3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css_module3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_module3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_jsp_servlet/exercise/product_piscount_calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_jsp_servlet/exercise/product_piscount_calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_jsp_servlet/exercise/product_piscount_calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_jsp_servlet/exercise/product_piscount_calculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +52,13 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.65">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Gradle___org_example___untitleddemo_tomcat_1_0_SNAPSHOT_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -258,6 +247,7 @@
       <workItem from="1661182871238" duration="398000" />
       <workItem from="1661214666439" duration="352000" />
       <workItem from="1661216507340" duration="160000" />
+      <workItem from="1661308210889" duration="27000" />
     </task>
     <servers />
   </component>

@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7b52ad-4738-4e50-b1b2-f906a48b50be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../css_module3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../css_module3/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../css_module3/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/chuyen_doi_tien_te/src/main/java/ConverterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/chuyen_doi_tien_te/src/main/webapp/resut.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/demo/src/main/java/DemoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/server_time/src/main/java/ServerTimeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/C0522G1-Huynh-Van-Nam-Module3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/C0522G1-Huynh-Van-Nam-Module3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css_module3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css_module3/.idea/css_module3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css_module3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../css_module3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css_module3/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_jsp_jstl/exercise/list_customers/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_jsp_jstl/exercise/list_customers/src/main/java/model/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_jsp_jstl/exercise/list_customers/src/main/webapp/views/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product_piscount_calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_piscount_calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product_piscount_calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_piscount_calculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +32,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661240472220</updated>
       <workItem from="1661240473465" duration="140000" />
+      <workItem from="1661316436165" duration="13000" />
     </task>
     <servers />
   </component>
