@@ -18,6 +18,7 @@ public class ProductServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
         if (action == null) {
             action = "";
@@ -77,7 +78,7 @@ public class ProductServlet extends HttpServlet {
 
     private void viewProduct(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
-        Product product = iProductService.searchByID(id-1);
+        Product product = iProductService.searchByID(id);
         RequestDispatcher dispatcher;
         if (product == null) {
             dispatcher = request.getRequestDispatcher("view/product/error.jsp");
@@ -116,6 +117,7 @@ public class ProductServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
         if (action == null) {
             action = "";
@@ -148,7 +150,7 @@ public class ProductServlet extends HttpServlet {
         int price = Integer.parseInt(request.getParameter("price"));
         String description = request.getParameter("description");
         String producer = request.getParameter("producer");
-        Product product = iProductService.searchByID(id - 1);
+        Product product = iProductService.searchByID(id);
         RequestDispatcher requestDispatcher;
         if (product == null) {
             requestDispatcher = request.getRequestDispatcher("error.jsp");
@@ -164,9 +166,7 @@ public class ProductServlet extends HttpServlet {
             requestDispatcher = request.getRequestDispatcher("view/product/edit.jsp");
         }
         try {
-            requestDispatcher.forward(request, response);
-        } catch (ServletException e) {
-            e.printStackTrace();
+            response.sendRedirect("/Product");
         } catch (IOException e) {
             e.printStackTrace();
         }
