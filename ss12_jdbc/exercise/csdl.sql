@@ -10,4 +10,3 @@ country varchar(120));
 insert into users(`name`,email,country)
 values ("Huỳnh Văn Nam","namhuynh191193@gmail.com","Việt Nam"),
 	   ("Ronadol","ronadol@gmail.com","Portuguese");
-select * from users;

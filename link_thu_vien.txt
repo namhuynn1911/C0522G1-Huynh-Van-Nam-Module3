@@ -1,6 +1,9 @@
 link gradle:                compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+
 link JSTL:                  implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+
 link jstl trong file jsp:   <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+
 link sửa phông chữ:         compileJava.options.encoding = 'UTF-8'
                             tasks.withType(JavaCompile) {
                             options.encoding = 'UTF-8'
